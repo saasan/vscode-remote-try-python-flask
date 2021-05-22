@@ -3,4 +3,4 @@ services:
     app:
         image: tiangolo/meinheld-gunicorn-flask
         volumes:
-            - .:/app:cached
+            - ./app:/app:cached
